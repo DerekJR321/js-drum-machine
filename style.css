@@ -1,13 +1,17 @@
 html {
-    font-size: 10px;
-    background-color: #f4f4f4;
-   
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, #000000, #1b0c15, #2a1527, #321e40, #2f2b5c);
+    display: block;
+    justify-content: center;
+    align-items: center;   
 }
 
 body, html {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .heading {
@@ -53,7 +57,7 @@ body, html {
     color: white;
     background: rgba(0, 0, 0, 0.8);
     text-shadow: 0 0 .5rem black;
-    box-shadow: 0 6px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
 }
 
 .playing {
@@ -73,3 +77,13 @@ kbd {
     letter-spacing: .1rem;
     color: #ffc600;
 }
+
+footer {
+    margin: 20px auto;
+    font-size: 1.4rem;
+    text-align: center;
+    align-content: center;
+    justify-content: end;
+    color: rgba(255, 255, 255, 0.1);
+}
+
